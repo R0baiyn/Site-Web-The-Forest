@@ -1,0 +1,337 @@
+@font-face {
+  font-family: "HeadlinerNo.45";
+  src: url("police/HeadlinerNo.45.ttf") format("Truetype");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body#map {
+  background: url("images/fondmap.jpg");
+  margin: 0%;
+  padding: 0%;
+  background-attachment: fixed;
+}
+
+body#ennemis {
+  background: url("images/fondennemis.jpg");
+  margin: 0%;
+  padding: 0%;
+  background-attachment: fixed;
+}
+
+body#accueil {
+  background: url("images/fondaccueil.jpg");
+  margin: 0%;
+  background-attachment: fixed;
+}
+
+body#histoire {
+  background: url("images/fondhistoire.jpg");
+  margin: 0%;
+  background-attachment: fixed;
+}
+
+body#fins {
+  background: url("images/fondfins.jpg");
+  margin: 0%;
+  background-attachment: fixed;
+}
+
+body#compterendu {
+  background: url("images/fondcr.jpg");
+  margin: 0%;
+  background-attachment: fixed;
+}
+
+#intro {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#intro p{
+  color: #e1c404;
+  font-family: "HeadlinerNo.45";
+  font-size: 4.5vmin;
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 0%;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1e1e1e;
+  position: sticky;
+  font-family: "HeadlinerNo.45";
+}
+
+li {
+  float: left;
+  position: sticky;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li img {
+  height: 6vmin;
+  vertical-align: bottom;
+}
+
+.menu a:hover {
+  background-color: #020202;
+}
+
+.menu {
+  font-size: 3vmin;
+  position: fixed;
+  width: 100%;
+  letter-spacing: 1px;
+}
+
+#cr {
+  float: right;
+  padding-right: 50px;
+}
+
+#logo {
+  padding-left: 5px;
+}
+
+.titre {
+  font-family: "HeadlinerNo.45";
+  color: #e1c404;
+  font-size: 20vmin;
+  text-align: center;
+  padding-top: 150px;
+  text-shadow: 2px 2px 4px black;
+}
+
+.presentation {
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+  overflow: auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.gauche {
+  float: left;
+  width: 50%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.gauche p {
+  font-family: "HeadlinerNo.45";
+  color: #e1c404;
+  font-size: 3.5vmin;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  letter-spacing: 1px;
+}
+
+.gauche h2 {
+  font-family: "HeadlinerNo.45";
+  color: #e1c404;
+  font-size: 4.5vmin;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  margin: 0%;
+}
+
+.gauche img {
+  height: 40vmin;
+}
+
+.droite img {
+  height: 40vmin;
+}
+
+.droite p {
+  font-family: "HeadlinerNo.45";
+  color: #e1c404;
+  font-size: 3.5vmin;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.droite h2 {
+  font-family: "HeadlinerNo.45";
+  color: #e1c404;
+  font-size: 4.5vmin;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+  font-weight: normal;
+  margin: 0%;
+}
+
+.droite {
+  float: right;
+  width: 50%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.ancre {
+  margin-bottom: 175px;
+  margin-top: 125px;
+}
+
+
+.sommaire a {
+  background-color: rgba(30, 30, 30, 0.8);
+  border-style: solid;
+  border-color: #e1c404;
+  border-radius: 15px;
+  border: 14px 16px;
+  color: #e1c404;
+  font-family: "HeadlinerNo.45";
+  padding: 5px 5px;
+  cursor: pointer;
+  width: 20%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 5vmin;
+  text-shadow: 2px 2px 4px black;
+  letter-spacing: 1px;
+  transition: background 0.2s ease;
+}
+
+.sommaire a:hover {
+  background-color: rgba(2, 2, 2, 0.8);
+}
+
+#lienmenu a{
+  font-size: 4vmin;
+}
+
+#lienmenujaune a{
+  font-size: 4vmin;
+  border-color: #1e1e1e;
+  color: #e1c404;
+  text-shadow: none;
+}
+
+.soustitre {
+  font-family: "HeadlinerNo.45";
+  color: #e1c404;
+  font-size: 5vmin;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px black;
+}
+
+#fondgris {
+  background-color: rgba(30, 30, 30, 0.8);
+}
+
+#fondgrisclair {
+  background-color: rgba(50, 50, 50, 0.8);
+}
+
+#fondjaune {
+  background-color: rgb(225, 196, 4);
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+}
+
+#fondjaune p {
+  color: #1e1e1e;
+  text-shadow: none
+}
+
+#fondjaune h2 {
+  color: #1e1e1e;
+  text-shadow: none;
+}
+
+#fondnoir {
+  background-color: rgb(30, 30, 30);
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+}
+
+footer {
+  background-color: rgba(2, 2, 2, 0.95);
+  color: white;
+  margin-top: 0%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+footer a {
+  color: #e1c404;
+}
+
+.bouton a {
+  background-color: rgba(30, 30, 30, 0.8);
+  border-style: solid;
+  border-color: #e1c404;
+  border-radius: 15px;
+  border: 14px 16px;
+  color: #e1c404;
+  font-family: "HeadlinerNo.45";
+  padding: 5px 5px;
+  cursor: pointer;
+  width: 30%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 3.5vmin;
+  text-shadow: 2px 2px 4px black;
+  letter-spacing: 1px;
+  transition: background 0.2s ease;
+}
+
+.bouton a:hover {
+  background-color: rgba(2, 2, 2, 0.8);
+}
+
+.compterendu {
+  padding-bottom: 100px;
+}
+
+.compterendu p{
+  margin-left: 75px;
+  margin-right: 75px;
+  letter-spacing: 1px;
+  font-family: "HeadlinerNo.45";
+  color: #e1c404;
+  font-size: 3.5vmin;
+  text-align: center;
+}
+
+.code {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: left;
+}
